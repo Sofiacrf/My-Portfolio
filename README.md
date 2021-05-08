@@ -25,3 +25,4 @@ The portfolio will be updated with the links and preview of the projects that IÂ
 ![Portfolio screenshots2.](./Portfolio-SS-2.PNG)
 
 ## Link to the website
+https://sofiacrf.github.io/My-Portfolio/
