@@ -57,7 +57,7 @@ h2 {
     font-size: 20px;
 }
 
-h3, h4 {
+h3, h4, h6 {
     color:rgb(64, 179, 224);
     font-size: 18px;
 }
@@ -100,7 +100,7 @@ main > div {
     border-style: ridge;
     text-align: center;
     height: 40%;
-    background-image: url(./mainproject.jpg);
+    background-image: url(appfunctionality.gif);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -150,11 +150,11 @@ main > div {
 
 /*Project images*/
 .project-1 {
-    background-image: url(./dye.jpg);
+    background-image: url(./Password-generator-SS2.PNG);
 }
 
 .project-2 {
-    background-image: url(./dye.jpg);
+    background-image: url(./WeatherDashboard2.PNG);
 }
 
 .project-3 {
