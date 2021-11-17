@@ -1,140 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=, initial-scale=1.0" />
-    <title>my-portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="./original.css" />
-  </head>
 
-  <body>
-      <!--Header section-->
-      <header class="bg-info">
-        <h1>Sofía Rojas</h1>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=, initial-scale=1.0" />
+  <title>my-portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Amiko' rel='stylesheet'>
+  <link rel="stylesheet" type="text/css" href="./original.css" />
+</head>
+
+<body>
+  <!--Header section-->
+  <header class="navbar navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Sofía Rojas Developer</a>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#clic-about-me">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#clic-projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#clic-resume">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#clic-contact-me">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!--Aside bar-->
+  <main>
+    <aside>
+      <figure>
+        <img id="Profile-picture" src="./images/profile/srfprofile.jpeg" alt="Profile Picture"> </img>
+      </figure>
+
+      <section id="clic-about-me" class="aside-about-me">
+        <h2>About Me</h2>
+        <h4>Full Stack Web Developer</h4>
+        <p>
+          Leveraging communications background to develop complex applications by being an achiever. Earned a
+          certificate in full stack development from Tecnologico de Monterrey, with skills in JavaScript, CSS, React.js,
+          Node.js, MongoDB, SQL, and responsive web development. Known as a problem solver passionate about developing
+          apps, with a focus on making the backend come to life visually and connecting it with the frontend. With each
+          project, my aim is to develop what the client needs and excel their expectations.
+        </p>
+      </section>
+
+      <section id="clic-resume" class="aside-resume">
+        <h2>Resume</h2>
+        <h3>Experience</h3>
         <ul>
-          <li> 
-            <a href="#clic-about-me">About Me</a>
-          </li>
-          <li>
-            <a class="text-light link" href="#clic-projects">Projects</a>
-          </li>
-          <li>
-            <a href="#clic-resume">Resume</a>
-          </li>
-          <li>
-            <a href="#clic-contact-me">Contact Me</a>
-          </li>
+          <li>JR. ACCOUNT EXECUTIVE AT BCW</li>
+          <p> KEY ACHIEVEMENTS: Boosted the reputation of the corporate social responsibility area through an increased
+            exposure by creating area metrics that were not being accounted. Contributed to the company image through the
+            involvement of executives in social responsibility actions that became part of the organizational culture
+            and descended in all levels of the organization.</p>
+          <li>ACOUNT EXECUTIVE AT ALTERPRAXIS</li>
+          <p>KEY ACHIEVEMENTS: Impacted four Latin American countries by developing the implementation of the
+            communication strategy with
+            regional scope. Increased media exposure by 20% of Cargill ́s CEO announcement of a social investment plan
+            in the south
+            region of Mexico by developing the communication strategy and government relations plan.</p>
+          <li>STUDENT ASSISTANT AT THE UNIVERSITY OF TEXAS AT AUSTIN</li>
         </ul>
-      </header>
+        <h3>Education</h3>
+        <ul>
+          <li>
+            FULL STACK WEB DEVELOPMENT CERTIFICATE FROM TECNOLOGICO DE MONTERREY
+          </li>
+          <p>A 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3, Javascript,
+            jQuery, Bootstrap, Node.js, MySQL, MongoDB, Express, Handlebars.js & ReactJS.</p>
+          <li>
+            SOCIAL MEDIA AND DIGITAL ENVIRONMENTS
+          </li>
+          <p>Universidad Nacional Autonoma de Mexico, Mexico City</p>
+          <li>
+            COMMUNICATION SCIENCE DEGREE
+          </li>
+          <p>Universidad Nacional Autonoma de Mexico, Mexico City</p>
+        </ul>
+      </section>
 
-      <!--Aside bar-->
-      <main>
-        <aside>
-          <figure>
-            <img class="rounded-circle" id="Profile-picture"
-            src="./Profile-picture.jpg" alt="My Picture"> </img>
-          </figure>
+      <section id="clic-contact-me" class="aside-contact-me">
+        <h2>Contact Me</h2>
+        <ul>
+          <li>🖥 email: sofiacarf@gmail.com</li>
+          <li>
+            <a href="resume.html">Download Resume in PDF</a>
+          </li>
+          <li>🖱️ GitHub: <a href="https://github.com/Sofiacrf">Sofiacrf</a></li>
+          <li>💻 LinkedIn: <a href="https://www.linkedin.com/in/sofiacarf/">Sofiacarf</a></li>
+        </ul>
+      </section>
+    </aside>
 
-          <section id="clic-about-me" class="aside-about-me">
-            <h2>About Me</h2>
-            <h4>It´s great to do the impossible!</h4>
-            <p>
-              I´m a persistent full stack web developer who is looking for new challenges, with a Full Stack Web Developer Certificate from Tecnologico de Monterrey. I have experience in front end utilizing a combination of strong communications skills as well as strategic thinking. On top of that, as I communications major I hace excellent understanding about the clients needs.
-            </p>
-          </section>
-
-          <section id="clic-resume" class="aside-resume">
-            <h2>Resume</h2>
-            <h3>Experience</h3>
-            <ul>
-              <li>Jr Account Executive at Burson Cohn and Wolfe.</li>
-              <li>Account Executive at Alterpraxis Servicios Corporativos.</li>
-              <li>Student Assistant at The University of Texas at Austin.</li>
-            </ul>
-            <h3>Education</h3>
-            <ul>
-              <li>
-                Full Stack Web Development Certificate from Tecnologico de Monterrey.
-              </li>
-              <li>
-                Diploma Course in Social Media and Digital Environments from
-                Universidad Nacional Autonoma de Mexico.
-              </li>
-              <li>
-                Degree in Communication Sciences from Universidad Nacional
-                Autonoma de Mexico.
-              </li>
-              <li>Exhange Student in The University of Texas at Austin.</li>
-            </ul>
-          </section>
-
-          <section id="clic-contact-me" class="aside-contact-me">
-            <h2>Contact Me</h2>
-            <ul>
-              <li>📧 email: sofiacarf@gmail.com</li>
-              <li> 📝
-                <a href="resume.html">Download Resume in PDF</a>
-              </li>
-              <li>😺 GitHub: <a href="https://github.com/Sofiacrf">Sofiacrf</a></li>
-              <li>💻 LinkedIn: <a href="https://www.linkedin.com/in/sofiacarf/">Sofiacarf</a></li>
-            </ul>
-          </section>
-        </aside>
-
-        <!--Projects Section-->
-        <div id="clic-projects" class="projects">
-          <section class="main-project">
-            <div class="special-effects">
-              <div class="content">
-                <h4>Sports Almanac</h4>
-                <a href="https://github.com/adina-hc/sports-almanac.git">Link to the repository</a>
-              </div>
-            </div>
-          </section>
-
-          <div class="row-1">
-            <section class="row-projects project-1">
-              <div class="special-effects">
-                <div class="content">
-                  <h6>Password Generator</h6>
-                  <a href="https://github.com/Sofiacrf/Password-Generator.git">Link to the repository</a>
-                </div>
-              </div>
-            </section>
-
-            <section class="row-projects project-2">
-              <div class="special-effects">
-                <div class="content">
-                  <h6>Weather Dashboard</h6>
-                  <a href="https://github.com/Sofiacrf/Weather-dashboard.git">Link to the repository</a>
-                </div>
-              </div>
-            </section>
-
-            <section class="row-projects project-3">
-              <div class="special-effects">
-                <div class="content">
-                  <h6>E-Commerce Backend</h6>
-                  <a href="https://github.com/Sofiacrf/E-CommerceBackEnd.git">Link to the respository</a>
-                </div>
-              </div>
-            </section>
-
-            <section class="row-projects project-4">
-              <div class="special-effects">
-                <div class="content">
-                  <h6>Readme Generator</h6>
-                  <a href="https://github.com/Sofiacrf/READMEgenerator.git">Link to the repository</a>
-                </div>
-              </div>
-            </section>
+    <!--Projects Section-->
+    <div id="clic-projects" class="projects">
+      <section class="main-project">
+        <div class="special-effects">
+          <div class="content">
+            <h4>Sports Almanac</h4>
+            <a href="https://github.com/adina-hc/sports-almanac.git">Link to the repository</a>
           </div>
         </div>
-      </main>
-  
-      <!--Footer-->
-      <footer class="bg-info">Made with ❤️</footer>
-  </body>
+      </section>
+
+      <div class="row-1">
+        <section class="row-projects project-1">
+          <div class="special-effects">
+            <div class="content">
+              <h6>Password Generator</h6>
+              <a href="https://github.com/Sofiacrf/Password-Generator.git">Link to the repository</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="row-projects project-2">
+          <div class="special-effects">
+            <div class="content">
+              <h6>Weather Dashboard</h6>
+              <a href="https://github.com/Sofiacrf/Weather-dashboard.git">Link to the repository</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="row-projects project-3">
+          <div class="special-effects">
+            <div class="content">
+              <h6>E-Commerce Backend</h6>
+              <a href="https://github.com/Sofiacrf/E-CommerceBackEnd.git">Link to the respository</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="row-projects project-4">
+          <div class="special-effects">
+            <div class="content">
+              <h6>Readme Generator</h6>
+              <a href="https://github.com/Sofiacrf/READMEgenerator.git">Link to the repository</a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <!--Footer-->
+  <footer class="bg-info bg-dark">All rights reserved</footer>
+</body>
+
 </html>
