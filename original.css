@@ -101,7 +101,7 @@ main > div {
 .main-project {
     border-style: ridge;
     text-align: center;
-    height: 30%;
+    height: 25%;
     background-image: url(images/profile/stockmarketgif.gif);
     background-position: center;
     background-size: cover;
@@ -110,6 +110,21 @@ main > div {
 }
 .main-project p {
     color: black;
+}
+
+.sports-almanac {
+    border-style: ridge;
+    text-align: center;
+    height: 20%;
+    background-image: url(images/profile/appfunctionality.gif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+}
+
+.sports-almanac p {
+    color:black;
 }
 /*Transition and hover*/
 .special-effects {
@@ -155,19 +170,19 @@ main > div {
 
 /*Project images*/
 .project-1 {
-    background-image: url(./Password-generator-SS2.PNG);
+    background-image: url(./images/profile/Password-generator-SS2.PNG);
 }
 
 .project-2 {
-    background-image: url(./WeatherDashboard2.PNG);
+    background-image: url(./images/profile/WeatherDashboard2.PNG);
 }
 
 .project-3 {
-    background-image: url(./EcommerceBackend.PNG);
+    background-image: url(./images/profile/EcommerceBackend.PNG);
 }
 
 .project-4 {
-    background-image: url(./Readme.PNG);
+    background-image: url(./images/profile/Readme.PNG);
 }
 
 /*Footer section*/
