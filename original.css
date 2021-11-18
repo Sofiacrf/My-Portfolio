@@ -101,12 +101,15 @@ main > div {
 .main-project {
     border-style: ridge;
     text-align: center;
-    height: 40%;
-    background-image: url(appfunctionality.gif);
+    height: 30%;
+    background-image: url(images/profile/stockmarketgif.gif);
     background-position: center;
     background-size: cover;
     position: relative;
     cursor: pointer;
+}
+.main-project p {
+    color: black;
 }
 /*Transition and hover*/
 .special-effects {
