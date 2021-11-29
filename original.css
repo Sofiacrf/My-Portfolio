@@ -53,6 +53,7 @@ h1 {
 
 /*Aside section*/
 
+
 h2 {
     color: #FF896B;
     font-size: 20px;
@@ -208,5 +209,6 @@ footer {
         background-color: rgb(176, 207, 253);
         width: 100%;
         word-wrap: break-word;
+        font-size: x-small;
     }
 }
