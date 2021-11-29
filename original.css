@@ -116,7 +116,7 @@ main > div {
     border-style: ridge;
     text-align: center;
     height: 20%;
-    background-image: url(images/profile/appfunctionality.gif);
+    background-image: url(images/profile/appfunctionality\ \(1\).gif);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -208,7 +208,9 @@ footer {
     main {
         background-color: rgb(176, 207, 253);
         width: 100%;
+        height: auto;
         word-wrap: break-word;
-        font-size: x-small;
+        font-size: xx-small;
+        text-align: center;
     }
 }
